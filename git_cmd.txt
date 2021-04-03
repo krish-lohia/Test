@@ -1,0 +1,60 @@
+Git is a version control system. 
+
+Advantages:
+- Roll back is easy
+- Individuals can work on the same project and contibute there work independently
+
+Stages in git:
+
+untracked -- unmodified -- modified -- staging -- commit
+
+.gitignore : make a txt file with name .gitignore and add all the file names or types of file name that we don't want to track
+
+GIT commands:
+
+git init: initialize a git repo
+rm -rf .git : deleting the complete git repo
+git status: check the status of working git repo
+git add --a: add files to staging area
+git commit -m "-----msg-----" : commit the changes made
+git clone url file_name : Clone a git repo
+git diff : provide changes between the staged file and working directory
+git diff --staged: provide changes from last commit and current staged files
+git commit -a -m "----msg----" : direct commit
+git rm filename : delete file from git and system
+git rm filename --cached : delete file from git only
+git mv filename new_filename : rename a file
+git log : provide the log's
+git log --pretty=short/oneline/long : provide log's
+git log --since=2.days : provide logs of last 2 days, same can be varied for different time durations
+git log -p -n : provide last n log's
+git log --stat : provide the changes a a commit
+git checkout --filename : roll back to previous file state
+git checkout -f : roll back all files to previous state
+git checkout -b branch_name : create a new branch
+git checkout branch_name : move to that branch
+git branch : show all the branches
+git push origin branch_name : push the branch 
+git merge branch_name: merge the branch to master
+
+Creating a remote repo : 
+
+1.go to github
+2.create a blank repo with the name desired
+3.clone the repo
+4.add the files to the new folder created
+5.make the changes if required in the files
+6.then add and commit
+7.push
+8.go to 5
+
+Working on someone else's repo:
+
+1.go to github repo
+2.fork the repo
+3.Step 4 of above explanation and continue
+4.Create a pull request (Now the owner of the repo checks for the changes made and can approve to merge the same or not)
+
+
+
+
