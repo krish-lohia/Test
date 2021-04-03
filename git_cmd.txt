@@ -36,6 +36,7 @@ git checkout branch_name : move to that branch
 git branch : show all the branches
 git push origin branch_name : push the branch 
 git merge branch_name: merge the branch to master
+git branch -d branch_name: delete a branch
 
 Creating a remote repo : 
 
@@ -55,6 +56,7 @@ Working on someone else's repo:
 3.Step 4 of above explanation and continue
 4.Create a pull request (Now the owner of the repo checks for the changes made and can approve to merge the same or not)
 
+*Commit the changes done in a branch before moving to another branch
 
 
 
