@@ -1,1 +1,1 @@
-add the extension
+add the extensions to be ignored in git tracking
